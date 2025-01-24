@@ -1,7 +1,7 @@
 package celsiusconvert;
 import java.util.Scanner;
 // overgezet vanuit verkeerde project (testzone)
-public class celsiusconvert {
+class celsiusconvert {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Is het fahrenheit of celsius? 1 voor Fahrenheit, 2 voor Celcius" );
@@ -18,7 +18,7 @@ public class celsiusconvert {
             System.out.println("Hoeveel graden celsius is het? ");
             float celcius = input.nextFloat();
             if (celcius <= -273) {
-                System.out.println("KANNIETMOGOOL");
+                System.out.println("KANNIET");
                 return;
             }
             float fahrenheit = (celcius +32) * 1.8f;
