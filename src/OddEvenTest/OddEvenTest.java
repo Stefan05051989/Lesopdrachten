@@ -14,9 +14,5 @@ public class OddEvenTest {
         }else{
             System.out.println(input + " het nummer is oneven.");
         }
-
-        /*
-        Zoek uit hoe een nummer even of oneven is ( incl scanner voor input)
-         */
     }
 }
